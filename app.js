@@ -22,4 +22,4 @@ app.get("/login", (req, res) => {
   res.send(login(user, password));
 });
 
-module.exports = app;
+module.exports = { app, login };
